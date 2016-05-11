@@ -60,10 +60,10 @@
 //#define SOFT_LPF_1ST_100HZ
 //#define SOFT_LPF_2ND_043HZ
 //#define SOFT_LPF_2ND_088HZ
-//#define SOFT_LPF_4TH_088HZ
+#define SOFT_LPF_4TH_088HZ
 //#define SOFT_LPF_4TH_160HZ
 //#define SOFT_LPF_4TH_250HZ
-#define SOFT_LPF_NONE
+//#define SOFT_LPF_NONE
 
 // this works only on newer boards (non mpu-6050)
 // on older boards the hw gyro setting controls the acc as well
@@ -201,7 +201,7 @@
 
 
 // clip feedforward attempts to resolve issues that occur near full throttle
-//#define CLIP_FF
+#define CLIP_FF
 
 // motor transient correction applied	to throttle stick
 //#define THROTTLE_TRANSIENT_COMPENSATION
@@ -211,17 +211,17 @@
 // motor curve to use
 // the pwm frequency has to be set independently
 // 720 motors use curve none and pwm 8K
-#define MOTOR_CURVE_NONE
+//#define MOTOR_CURVE_NONE
 //#define MOTOR_CURVE_6MM_490HZ
-//#define MOTOR_CURVE_85MM_8KHZ
+#define MOTOR_CURVE_85MM_8KHZ
 //#define MOTOR_CURVE_85MM_8KHZ_OLD
 //#define MOTOR_CURVE_85MM_32KHZ
 
 // pwm frequency for motor control
 // a higher frequency makes the motors more linear
 //#define PWM_490HZ
-//#define PWM_8KHZ
-#define PWM_16KHZ
+#define PWM_8KHZ
+//#define PWM_16KHZ
 //#define PWM_24KHZ
 //#define PWM_32KHZ
 
