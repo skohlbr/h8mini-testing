@@ -45,7 +45,7 @@ float pidkp[PIDNUMBER] = { 10e-2, 10e-2, 7e-1 };
 // Ki                       ROLL       PITCH     YAW
 float pidki[PIDNUMBER] = { 3e-1, 3e-1, 7e-1 };
 // Kd                       ROLL       PITCH     YAW
-float pidkd[PIDNUMBER] = { 6e-1, 6e-1, 5e-1 }
+float pidkd[PIDNUMBER] = { 6e-1, 6e-1, 5e-1 };
 
 
 // output limit                 
