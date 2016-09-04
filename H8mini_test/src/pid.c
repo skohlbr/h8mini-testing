@@ -41,11 +41,11 @@ THE SOFTWARE.
 
 
 // Kp                       ROLL       PITCH     YAW
-float pidkp[PIDNUMBER] = { 17.0e-2, 17.0e-2, 10e-1 };
+float pidkp[PIDNUMBER] = { 10e-2, 10e-2, 7e-1 };
 // Ki                       ROLL       PITCH     YAW
-float pidki[PIDNUMBER] = { 15e-1, 15e-1, 50e-1 };
+float pidki[PIDNUMBER] = { 3e-1, 3e-1, 7e-1 };
 // Kd                       ROLL       PITCH     YAW
-float pidkd[PIDNUMBER] = { 6.8e-1, 6.8e-1, 5.0e-1 };
+float pidkd[PIDNUMBER] = { 6e-1, 6e-1, 5e-1 }
 
 
 // output limit                 
